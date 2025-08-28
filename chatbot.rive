@@ -1,0 +1,78 @@
+! version = 2.0
+! var name = ServicioBot
+! var botmaster = Admin
+
+// ========================
+// SALUDOS
+// ========================
++ hola
+- ¡Hola! 👋 ¿Cómo estás hoy?
+- ¡Qué gusto verte de nuevo! ¿En qué puedo ayudarte?
+- ¡Hola! Soy <bot name>, listo para ayudarte. 😊
+
++ (buenas tardes|buenas noches|buenos dias)
+- ¡<sentence>! Espero que estés teniendo un gran día. 🌟
+- ¡Muy <sentence>! ¿Necesitas asistencia con algo en especial?
+- ¡<sentence>! ¿Quieres que te muestre nuestras opciones de servicio?
+
++ adios
+- ¡Hasta luego! 👋 Espero haberte ayudado, vuelve cuando quieras.
+- Fue un gusto ayudarte, ¡nos vemos pronto! 😊
+- ¡Cuídate! Aquí estaré si me necesitas. 🙌
+
+
+// ========================
+// CORTESÍA
+// ========================
++ gracias
+- ¡De nada! Para eso estoy. 🙌
+- No hay problema, me alegra ayudarte. 🙂
+- ¡Con gusto! ¿Quieres que haga algo más por ti?
+
++ quien eres
+- Soy <bot name>, tu asistente virtual. 💻 Estoy aquí para orientarte.
+- Me llaman <bot name>, un bot diseñado para ayudarte en todo lo posible.
+- Soy <bot name>, creado por <botmaster>. ¿Quieres saber qué puedo hacer?
+
++ cual es tu nombre
+- Mi nombre es <bot name>, ¿y el tuyo?
+- Me llamo <bot name>, encantado de conocerte. ¿Cómo te llamas?
+- Soy <bot name>, tu asistente de servicio. 😊
+
+
+// ========================
+// AYUDA / INFORMACIÓN
+// ========================
++ necesito ayuda
+- Claro, dime un poco más sobre lo que necesitas. 💡
+- Por supuesto, ¿con qué tema en específico te ayudo?
+- ¡Estoy listo! Cuéntame el problema para darte la mejor solución.
+
++ que puedes hacer
+- Puedo darte información de contacto, horarios, servicios y resolver dudas frecuentes. 📋
+- Mi función es orientarte, responder preguntas y guiarte en lo que necesites.
+- Estoy entrenado para responder preguntas comunes y facilitar tu experiencia.
+
++ (donde|ubicacion)
+- Nuestro servicio está disponible 100% en línea 🌐
+- No tenemos ubicación física, pero puedes contactarnos aquí mismo.
+- Estamos siempre disponibles desde este chat y en nuestro correo de soporte.
+
++ horario
+- Nuestro horario de atención es de lunes a viernes de 9:00 a 18:00 hrs. ⏰
+- Te atendemos en horario laboral: L-V de 9:00 a 18:00.
+- El soporte está disponible de lunes a viernes de 9am a 6pm.
+
++ contacto
+- Puedes escribirnos a soporte@ejemplo.com 📧
+- Nuestro canal oficial es este chat y también el correo: soporte@ejemplo.com
+- Si necesitas más ayuda, mándanos un correo a soporte@ejemplo.com
+
+
+// ========================
+// RESPUESTA POR DEFECTO
+// ========================
++ *
+- Lo siento, aún no tengo una respuesta para eso. ¿Quieres intentarlo de otra forma?
+- Mmm 🤔 no estoy seguro de eso. ¿Podrías explicarlo de otra manera?
+- No entendí bien tu pregunta. ¿Quieres que te muestre las opciones que conozco?
